@@ -11,13 +11,120 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
   protected function getTranslations() {
     return array(
+      
+      
+      // Overall
+      '%s Day(s) Ago' => [
+        '%s день назад',
+        '%s дня назад',
+        '%s дней назад',
+      ],
+      'Log In' => 'Войти',
+      'Register Account' => 'Зарегистририовать аккаунт',
+      'Register' => 'Регистрация',
+      'Create a New Account' => 'Создать новый аккаунт',
+      'Username/Password' => 'Имя пользователя/пароль',
+      'Send Email' => 'Отправить письмо',
+      'Fullscreen' => 'На весь экран',
+      'Preamble' => 'Преамбула',
+      'Profile' => 'Профиль',
+      'Log Out %s' => 'Выход',
+      'Availability' => 'Доступность',
+      'Administrator' => 'Администратор',
+      'Commits' => 'Фиксации',
+      'Revisions' => 'Ревизии',
+      'Tasks' => 'Задачи',
+      'Badges' => 'Бейджи',
+      'Log Out' => 'Выход',
+      'Save Query' => 'Сохранить запрос',
+      'Use Results' => 'Использовать результаты',
+      'From' => 'От',
+      'Via' => 'Через',
+      'Old' => 'Старый',
+      'New' => 'Новый',
+      'Code' => 'Код',
+      'Closed' => 'Закрыто',
+      'Branch: %s' => 'Ветка: %s',
+      'Next' => 'Далее',
+      'Commit' => 'Фиксация',
+      'COMMIT' => 'Фиксация',
+      'Committed' => 'Зафиксировано',
+      'Details' => 'Детали',
+      'Status' => 'Статус',
+      'Remove' => 'Удалить',
+      'Select' => 'Выбрать',
+      'Auditors' => 'Аудиторы',
+      'Home' => 'Главная',
+      'Branches' => 'Ветки',
+      'Tags' => 'Теги',
+      'Graph' => 'Граф',
+      'History' => 'История',
+      'Create Custom Pages' => 'Создать пользовательские страницы',
+      'Explore More Applications' => 'Посмотреть больше приложений',
+      'Customize Menu...' => 'Настроить меню...',
+      'Create' => 'Создать',
+      'Create New...' => 'Создать...',
+      'Update' => 'Обновить',
+      'Continue' => 'Продолжить',
+      'Send' => 'Отправить',
+      'Submit' => 'Отправить',
+      'Save' => 'Сохранить',
+      'Save Changes' => 'Сохранить изменения',
+      'Changes saved.' => 'Изменения сохранены',
+      'Add Comment' => 'Добавить комментарий',
+      'Add Action...' => 'Добавить действие...',
+      'Move on Workboard' => 'Перенести на рабочую область',
+      'Change Project Tags' => 'Изменить теги проекта',
+      'Change Subscribers' => 'Изменить подписчиков',
+      'Take Action' => 'Выполнить действие',
+      'Join' => 'Присоединиться',
+      'Cancel' => 'Отменить',
+      'Close' => 'Закрыть',
+      'No data.' => 'Нет данных.',
+      'Partial' => 'Частично',
+      'Partial Upload' => 'Загрузка по частям',
+      'View All' => 'Показать всё',
+      'All' => 'Всё',
+      'Title' => 'Заголовок',
+      'Action' => 'Действие',
+      'Actions' => 'Действия',
+      'View Raw' => 'Показать в исходном виде',
+      'PREVIEW' => 'ПРЕДПРОСМОТР',
+      'Preview' => 'Предпросмотр',
+      'Help' => 'Помощь',
+      'Name' => 'Наименование',
+      'Document Preview' => 'Предпросмотр документа',
+      'Description Preview' => 'Предпросмотр описания',
+      'Configure Form' => 'Отредактировать форму',
+      'Description' => 'Описание',
+      'Comments' => 'Комментарии',
+      'Author' => 'Автор',
+      'Subscribers' => 'Подписчики',
+      'Required' => 'Требуется',
+      'Visible To' => 'Доступно для',
+      'Editable By' => 'Может редактироваться',
+      'Policies' => 'Политики',
+      'Default' => 'По умолчанию',
+      'Prototype' => 'Прототип',
+      '(Show Details)' => '(Показать подробности)',
+      'Change Details' => 'Изменить подробности',
+      'Updated' => 'Обновлено',
+      'Loading...' => 'Загрузка...',
+      'None' => 'Нет',
+      'Recent Activity' => 'Последняя активность',
+      '%s mentioned this in %s.' => '%s был(а) упомянут(а) в %s.',
+      '%s changed the visibility from "%s" to "%s".' => '%s изменил(а) видимость с "%s" на "%s".',
+      '%s changed the edit policy from "%s" to "%s".' => '%s изменил(а) политику редактирования с "%s" на "%s".',
+      'Choose which language you would like the Phabricator UI to use.' => 'Выберите, какой язык вы бы хотели использовать для интерфейса Фабрикатора',
+      'Choose the pronoun you prefer.' => 'Выберите местоимение, которое для вас наиболее уместно.',
+      
       'No daemon(s) with id(s) "%s" exist!' => array(
         'Не найдено служб с данным id %s!',
         'Не найдено служб с данными id %s!',
       ),
 
       'These %d configuration value(s) are related:' => array(
-        'Данное значение конфигурации относится к:',
+        'Данное %d значение конфигурации относится к:',
         'Данные %d значения конфигурации относятся к:',
         'Данные %d значений конфигурации относятся к:',
       ),
@@ -38,12 +145,12 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       '%d diff(s)' => array('%d изменение', '%d изменения', '%d изменений'),
 
       '%d Answer(s)' => array('%d ответ', '%d ответа', '%dоОтветов'),
-      'Show %d Comment(s)' => array('Показать комментарий', 'Показать %d комментария', 'Показать %d комментариев'),
+      'Show %d Comment(s)' => array('Показать %d комментарий', 'Показать %d комментария', 'Показать %d комментариев'),
 
       '%s DIFF LINK(S)' => array('ССЫЛКА НА ИЗМЕНЕНИЕ', 'ССЫЛКИ НА ИЗМЕНЕНИЕ'),
 
       'You successfully created %d diff(s).' => array(
-        'Вы успешно создали изменение',
+        'Вы успешно создали %d изменение',
         'Вы успешно создали %d изменения.',
         'Вы успешно создали %d изменений.',
       ),
@@ -53,13 +160,13 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       'There are %d raw fact(s) in storage.' => array(
-        'Сейчас у вас один сырой факт в хранилище.',
-        'Сейчас у вас один %d сырых факта в хранилище.',
-        'Сейчас у вас один %d сырых фактов в хранилище.',
+        'Сейчас у вас %d сырой факт в хранилище.',
+        'Сейчас у вас %d сырых факта в хранилище.',
+        'Сейчас у вас %d сырых фактов в хранилище.',
       ),
 
       'There are %d aggregate fact(s) in storage.' => array(
-        'Сейчас у вас один агрегированный факт в хранилище.',
+        'Сейчас у вас %d агрегированный факт в хранилище.',
         'Сейчас у вас %d агрегированных факта в хранилище.',
         'Сейчас у вас %d агрегированных фактов в хранилище.',
       ),
@@ -70,7 +177,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
         'Показать %d сообщений линтера',
       ),
       'Hide %d Lint Message(s)' => array(
-        'Скрыть сообщение линтера',
+        'Скрыть %d сообщение линтера',
         'Скрыть %d сообщения линтера',
         'Скрыть %d сообщений линтера',
       ),
@@ -83,7 +190,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s member(s): %s.' => array(
         array(
-          '%s добавил(а) нового члена: %3$s.',
+          '%s добавил(а) %s члена: %3$s.',
           '%s добавил(а) %s новых члена: %s.',
           '%s добавил(а) %s новых членов: %s.',
         ),
@@ -101,7 +208,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s project(s): %s.' => array(
         array(
-          '%s добавил(а) проект: %3$s.',
+          '%s добавил(а) %s проект: %3$s.',
           '%s добавил(а) %s проекта: %s.',
           '%s добавил(а) %s проектов: %s.',
         ),
@@ -109,7 +216,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s project(s): %s.' => array(
         array(
-          '%s удалил(а) проект: %3$s.',
+          '%s удалил(а) %s проект: %3$s.',
           '%s удалил(а) %s проекта: %s.',
           '%s удалил(а) %s проектов: %s.',
         ),
@@ -117,7 +224,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s merged %d task(s): %s.' => array(
         array(
-          '%s объединил(а) задачу: %3$s.',
+          '%s объединил(а) %d задачу: %3$s.',
           '%s объединил(а) %d задачи: %3$s.',
           '%s объединил(а) %d задач: %3$s.',
         ),
@@ -125,7 +232,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s merged %d task(s) %s into %s.' => array(
         array(
-          '%s объединил(а) задачу %3$s с %4$s.',
+          '%s объединил(а) %d задачу %3$s с %4$s.',
           '%s объединил(а) %d задачи %s с %s.',
           '%s объединил(а) %d задач %s с %s.',
         ),
@@ -136,7 +243,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s mock(s): %s.' => array(
         array(
-          '%s добавил(а) дизайн: %3$s.',
+          '%s добавил(а) %s дизайн: %3$s.',
           '%s добавил(а) %s дизайна: %s.',
           '%s добавил(а) %s дизайнов: %s.',
         ),
@@ -144,7 +251,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s mock(s): %s.' => array(
         array(
-          '%s удалил(а) дизайн: %3$s.',
+          '%s удалил(а) %s дизайн: %3$s.',
           '%s удалил(а) %s дизайна: %s.',
           '%s удалил(а) %s дизайнов: %s.',
         ),
@@ -152,7 +259,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s task(s): %s.' => array(
         array(
-          '%s добавил(а) задачу: %3$s.',
+          '%s добавил(а) %s задачу: %3$s.',
           '%s добавил(а) %s задачи: %s.',
           '%s добавил(а) %s задач: %s.',
         ),
@@ -160,7 +267,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s task(s): %s.' => array(
         array(
-          '%s удалил(а) задачу: %3$s.',
+          '%s удалил(а) %s задачу: %3$s.',
           '%s удалил(а) %s задачи: %3$s.',
           '%s удалил(а) %s задач: %3$s.',
         ),
@@ -171,7 +278,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s file(s): %s.' => array(
         array(
-          '%s добавил(а) файл: %3$s.',
+          '%s добавил(а) %s файл: %3$s.',
           '%s добавил(а) %s файла: %s.',
           '%s добавил(а) %s файлов: %s.',
         ),
@@ -179,7 +286,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s file(s): %s.' => array(
         array(
-          '%s удалил(а) файл: %3$s.',
+          '%s удалил(а) %s файл: %3$s.',
           '%s удалил(а) %s файла: %s.',
           '%s удалил(а) %s файлов: %s.',
         ),
@@ -294,7 +401,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %d image(s): %s.' => array(
         array(
-          '%s добавил(а) изображение: %3$s.',
+          '%s добавил(а) %d изображение: %3$s.',
           '%s добавил(а) %d изображения: %3$s.',
           '%s добавил(а) %d изображений: %3$s.',
         ),
@@ -302,7 +409,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %d image(s): %s.' => array(
         array(
-          '%s удалил(а) изображение: %3$s.',
+          '%s удалил(а) %d изображение: %3$s.',
           '%s удалил(а) %d изображения: %3$s.',
           '%s удалил(а) %d изображений: %3$s.',
         ),
@@ -373,7 +480,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s dependencie(s): %s.' => array(
         array(
-          '%s добавил(а) зависимость: %3$s.',
+          '%s добавил(а) %s зависимость: %3$s.',
           '%s добавил(а) %s зависимости: %3$s.',
           '%s добавил(а) %s зависимостей: %3$s.',
         ),
@@ -381,7 +488,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s dependencie(s) for %s: %s.' => array(
         array(
-          '%s добавил(а) зависимость для %3$s: %4$s.',
+          '%s добавил(а) %s зависимость для %3$s: %4$s.',
           '%s добавил(а) %s зависимости для %3$s: %4$s.',
           '%s добавил(а) %s зависимостей для %3$s: %4$s.',
         ),
@@ -389,7 +496,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s dependencie(s): %s.' => array(
         array(
-          '%s удалил(а) зависимость: %3$s.',
+          '%s удалил(а) %s зависимость: %3$s.',
           '%s удалил(а) %s зависимости: %3$s.',
           '%s удалил(а) %s зависимостей: %3$s.',
         ),
@@ -397,7 +504,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s dependencie(s) for %s: %s.' => array(
         array(
-          '%s удалил(а) зависимость для %3$s: %4$s.',
+          '%s удалил(а) %s зависимость для %3$s: %4$s.',
           '%s удалил(а) %s зависимости для %3$s: %4$s.',
           '%s удалил(а) %s зависимостей для %3$s: %4$s.',
         ),
@@ -411,7 +518,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s dependent revision(s): %s.' => array(
         array(
-          '%s добавил зависимую ревизию: %3$s.',
+          '%s добавил %s зависимую ревизию: %3$s.',
           '%s добавил %s зависимых ревизии: %3$s.',
           '%s добавил %s зависимых ревизий: %3$s.',
         ),
@@ -419,7 +526,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s dependent revision(s) for %s: %s.' => array(
         array(
-          '%s добавил(а) зависимую ревизию для %3$s: %4$s.',
+          '%s добавил(а) %s зависимую ревизию для %3$s: %4$s.',
           '%s добавил(а) %s зависимых ревизии для %3$s: %4$s.',
           '%s добавил(а) %s зависимых ревизий для %3$s: %4$s.',
         ),
@@ -427,7 +534,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s dependent revision(s): %s.' => array(
         array(
-          '%s удалил(а) зависимую ревизию: %3$s.',
+          '%s удалил(а) %s зависимую ревизию: %3$s.',
           '%s удалил(а) %s зависимых ревизии: %3$s.',
           '%s удалил(а) %s зависимых ревизий: %3$s.',
         ),
@@ -435,7 +542,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s dependent revision(s) for %s: %s.' => array(
         array(
-          '%s удалил(а) зависимую ревизию для %3$s: %4$s.',
+          '%s удалил(а) %s зависимую ревизию для %3$s: %4$s.',
           '%s удалил(а) %s зависимых ревизии для %3$s: %4$s.',
           '%s удалил(а) %s зависимых ревизий для %3$s: %4$s.',
         ),
@@ -443,7 +550,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s commit(s): %s.' => array(
         array(
-          '%s добавил(а) фиксацию: %3$s.',
+          '%s добавил(а) %s фиксацию: %3$s.',
           '%s добавил(а) %s фиксации: %3$s.',
           '%s добавил(а) %s фиксаций: %3$s.',
         ),
@@ -451,7 +558,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s commit(s): %s.' => array(
         array(
-          '%s удалил(а) фиксацию: %3$s.',
+          '%s удалил(а) %s фиксацию: %3$s.',
           '%s удалил(а) %s фиксации: %3$s.',
           '%s удалил(а) %s фиксаций: %3$s.',
         ),
@@ -462,7 +569,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s reverted commit(s): %s.' => array(
         array(
-          '%s добавил(а) реверсивную фиксацию: %3$s.',
+          '%s добавил(а) %s реверсивную фиксацию: %3$s.',
           '%s добавил(а) %s реверсивных фиксации: %3$s.',
           '%s добавил(а) %s реверсивных фиксаций: %3$s.',
         ),
@@ -470,7 +577,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s reverted commit(s): %s.' => array(
         array(
-          '%s удалил(а) реверсивную фиксацию: %3$s.',
+          '%s удалил(а) %s реверсивную фиксацию: %3$s.',
           '%s удалил(а) %s реверсивных фиксации: %3$s.',
           '%s удалил(а) %s реверсивных фиксаций: %3$s.',
         ),
@@ -481,7 +588,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s reverted commit(s) for %s: %s.' => array(
         array(
-          '%s добавил(а) реверсивную фиксацию для %3$s: %4$s.',
+          '%s добавил(а) %s реверсивную фиксацию для %3$s: %4$s.',
           '%s добавил(а) %s реверсивных фиксации для %3$s: %4$s.',
           '%s добавил(а) %s реверсивных фиксаций для %3$s: %4$s.',
         ),
@@ -489,7 +596,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s reverted commit(s) for %s: %s.' => array(
         array(
-          '%s удалил(а) реверсивную фиксацию для %3$s: %4$s.',
+          '%s удалил(а) %s реверсивную фиксацию для %3$s: %4$s.',
           '%s удалил(а) %s реверсивных фиксации для %3$s: %4$s.',
           '%s удалил(а) %s реверсивных фиксаций для %3$s: %4$s.',
         ),
@@ -500,7 +607,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s reverting commit(s): %s.' => array(
         array(
-          '%s добавил(а) реверсивную фиксацию: %3$s.',
+          '%s добавил(а) %s реверсивную фиксацию: %3$s.',
           '%s добавил(а) %s реверсивных фиксации: %3$s.',
           '%s добавил(а) %s реверсивных фиксаций: %3$s.',
         ),
@@ -508,7 +615,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s reverting commit(s): %s.' => array(
         array(
-          '%s удалил(а) реверсивную фиксацию: %3$s.',
+          '%s удалил(а) %s реверсивную фиксацию: %3$s.',
           '%s удалил(а) %s реверсивных фиксации: %3$s.',
           '%s удалил(а) %s реверсивных фиксаций: %3$s.',
         ),
@@ -519,7 +626,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s reverting commit(s) for %s: %s.' => array(
         array(
-          '%s добавил(а) реверсивную фиксацию для %3$s: %4$s.',
+          '%s добавил(а) %s реверсивную фиксацию для %3$s: %4$s.',
           '%s добавил(а) %s реверсивных фиксации для %3$s: %4$s.',
           '%s добавил(а) %s реверсивных фиксаций для %3$s: %4$s.',
         ),
@@ -527,7 +634,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s reverting commit(s) for %s: %s.' => array(
         array(
-          '%s удалил(а) реверсивную фиксацию для %3$s: %4$s.',
+          '%s удалил(а) %s реверсивную фиксацию для %3$s: %4$s.',
           '%s удалил(а) %s реверсивных фиксации для %3$s: %4$s.',
           '%s удалил(а) %s реверсивных фиксаций для %3$s: %4$s.',
         ),
@@ -554,7 +661,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       '%d project hashtag(s) are already used: %s.' => array(
-          'Хештег проекта %2$s уже используется.',
+          '%d хештег проекта %2$s уже используется.',
           '%d хештега проекта %2$s уже используются.',
           '%d хештегов проекта %2$s уже используются.',
       ),
@@ -564,7 +671,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %d project hashtag(s): %s.' => array(
         array(
-          '%s добавил(а) хештег проекту: %3$s.',
+          '%s добавил(а) %d хештег проекту: %3$s.',
           '%s добавил(а) %d хештега проекту: %3$s.',
           '%s добавил(а) %d хештегов проекту: %3$s.',
         ),
@@ -572,7 +679,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %d project hashtag(s): %s.' => array(
         array(
-          '%s удалил(а) хештег проекту: %3$s.',
+          '%s удалил(а) %d хештег проекту: %3$s.',
           '%s удалил(а) %d хештега проекту: %3$s.',
           '%s удалил(а) %d хештегов проекту: %3$s.',
         ),
@@ -583,7 +690,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %d %s hashtag(s): %s.' => array(
         array(
-          '%s добавил(а) %3$s хештег: %4$s.',
+          '%s добавил(а) %3$s %2$d хештег: %4$s.',
           '%s добавил(а) %3$s %2$d хештега: %4$s.',
           '%s добавил(а) %3$s %2$d хештегов: %4$s.',
         ),
@@ -591,7 +698,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %d %s hashtag(s): %s.' => array(
         array(
-          '%s удалил(а) %3$s хештег: %4$s.',
+          '%s удалил(а) %3$s %2$d хештег: %4$s.',
           '%s удалил(а) %3$s %2$d хештега: %4$s.',
           '%s удалил(а) %3$s %2$d хештегов: %4$s.',
         ),
@@ -624,7 +731,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       '%s commit(s)' => array(
-        'одна фиксация',
+        '%s фиксация',
         '%s фиксации',
         '%s фиксаций',
       ),
@@ -659,7 +766,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s task(s) to %s: %s.' => array(
         array(
-          '%s добавил(а) задачу в: %4$s.',
+          '%s добавил(а) %s задачу в: %4$s.',
           '%s добавил(а) %s задачи в: %4$s.',
           '%s добавил(а) %s задач в: %4$s.',
         ),
@@ -667,7 +774,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s task(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) задачу из: %4$s.',
+          '%s удалил(а) %s задачу из: %4$s.',
           '%s удалил(а) %s задачи из: %4$s.',
           '%s удалил(а) %s задач из: %4$s.',
         ),
@@ -681,7 +788,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s commit(s) to %s: %s.' => array(
         array(
-          '%s добавил(а) фиксацию к %3$s: %4$s.',
+          '%s добавил(а) %s фиксацию к %3$s: %4$s.',
           '%s добавил(а) %s фиксации к %3$s: %4$s.',
           '%s добавил(а) %s фиксаций к %3$s: %4$s.',
         ),
@@ -689,7 +796,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s commit(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) фиксацию из %3$s: %4$s.',
+          '%s удалил(а) %s фиксацию из %3$s: %4$s.',
           '%s удалил(а) %s фиксации из %3$s: %4$s.',
           '%s удалил(а) %s фиксаций из %3$s: %4$s.',
         ),
@@ -700,7 +807,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s revision(s): %s.' => array(
         array(
-          '%s добавил(а) ревизию: %3$s.',
+          '%s добавил(а) %s ревизию: %3$s.',
           '%s добавил(а) %s ревизии: %3$s.',
           '%s добавил(а) %s ревизий: %3$s.',
         ),
@@ -708,7 +815,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s revision(s): %s.' => array(
         array(
-          '%s удалил(а) ревизию: %3$s.',
+          '%s удалил(а) %s ревизию: %3$s.',
           '%s удалил(а) %s ревизии: %3$s.',
           '%s удалил(а) %s ревизий: %3$s.',
         ),
@@ -719,7 +826,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s revision(s) to %s: %s.' => array(
         array(
-          '%s добавил(а) ревизию к %3$s: %4$s.',
+          '%s добавил(а) %s ревизию к %3$s: %4$s.',
           '%s добавил(а) %s ревизии к %3$s: %4$s.',
           '%s добавил(а) %s ревизий к %3$s: %4$s.',
         ),
@@ -727,7 +834,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s revision(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) ревизию из %3$s: %4$s.',
+          '%s удалил(а) %s ревизию из %3$s: %4$s.',
           '%s удалил(а) %s ревизии из %3$s: %4$s.',
           '%s удалил(а) %s ревизий из %3$s: %4$s.',
         ),
@@ -741,7 +848,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s project(s) to %s: %s.' => array(
         array(
-          '%s добавил(а) проект к %3$s: %4$s.',
+          '%s добавил(а) %s проект к %3$s: %4$s.',
           '%s добавил(а) %s проекта к %3$s: %4$s.',
           '%s добавил(а) %s проектов к %3$s: %4$s.',
         ),
@@ -749,7 +856,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s project(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) проект из %3$s: %4$s.',
+          '%s удалил(а) %s проект из %3$s: %4$s.',
           '%s удалил(а) %s проекта из %3$s: %4$s.',
           '%s удалил(а) %s проектов из %3$s: %4$s.',
         ),
@@ -760,7 +867,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s panel(s): %s.' => array(
         array(
-          '%s добавил(а) панель: %3$s.',
+          '%s добавил(а) %s панель: %3$s.',
           '%s добавил(а) %s панели: %3$s.',
           '%s добавил(а) %s панелей: %3$s.',
         ),
@@ -768,7 +875,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s panel(s): %s.' => array(
         array(
-          '%s удалил(а) панель: %3$s.',
+          '%s удалил(а) %s панель: %3$s.',
           '%s удалил(а) %s панели: %3$s.',
           '%s удалил(а) %s панелей: %3$s.',
         ),
@@ -779,7 +886,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s dashboard(s): %s.' => array(
         array(
-          '%s добавил(а) доску: %3$s.',
+          '%s добавил(а) %s доску: %3$s.',
           '%s добавил(а) %s доски: %3$s.',
           '%s добавил(а) %s досок: %3$s.',
         ),
@@ -787,7 +894,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s dashboard(s): %s.' => array(
         array(
-          '%s удалил(а) доску: %3$s.',
+          '%s удалил(а) %s доску: %3$s.',
           '%s удалил(а) %s доски: %3$s.',
           '%s удалил(а) %s досок: %3$s.',
         ),
@@ -798,7 +905,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s edge(s): %s.' => array(
         array(
-          '%s добавил(а) грань: %3$s.',
+          '%s добавил(а) %s грань: %3$s.',
           '%s добавил(а) %s грани: %3$s.',
           '%s добавил(а) %s граней: %3$s.',
         ),
@@ -806,7 +913,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s added %s edge(s) to %s: %s.' => array(
         array(
-          '%s добавил(а) грань к %3$s: %4$s.',
+          '%s добавил(а) %s грань к %3$s: %4$s.',
           '%s добавил(а) %s грани к %3$s: %4$s.',
           '%s добавил(а) %s граней к %3$s: %4$s.',
         ),
@@ -814,7 +921,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s edge(s): %s.' => array(
         array(
-          '%s удалил(а) грань к %3$s: %4$s.',
+          '%s удалил(а) %s грань к %3$s: %4$s.',
           '%s удалил(а) %s грани к %3$s: %4$s.',
           '%s удалил(а) %s граней к %3$s: %4$s.',
         ),
@@ -822,7 +929,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s edge(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) грань из %3$s: %4$s.',
+          '%s удалил(а) %s грань из %3$s: %4$s.',
           '%s удалил(а) %s грани из %3$s: %4$s.',
           '%s удалил(а) %s граней из %3$s: %4$s.',
         ),
@@ -882,31 +989,31 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       'Show First %d Line(s)' => array(
-        'Показать первую строку',
+        'Показать первую %d строку',
         'Показать первые %d строки',
         'Показать первые %d строк',
       ),
 
       "\xE2\x96\xB2 Show %d Line(s)" => array(
-        "\xE2\x96\xB2 Показать строку",
+        "\xE2\x96\xB2 Показать %d строку",
         "\xE2\x96\xB2 Показать %d строки",
         "\xE2\x96\xB2 Показать %d строк",
       ),
 
       'Show All %d Line(s)' => array(
-        'Показать строку',
+        'Показать %d строку',
         'Показать все %d строки',
         'Показать все %d строк',
       ),
 
       "\xE2\x96\xBC Show %d Line(s)" => array(
-        "\xE2\x96\xBC Показать строку",
+        "\xE2\x96\xBC Показать %d строку",
         "\xE2\x96\xBC Показать %d строки",
         "\xE2\x96\xBC Показать %d строк",
       ),
 
       'Show Last %d Line(s)' => array(
-        'Показать последнюю строку',
+        'Показать %d последнюю строку',
         'Показать %d последних строки',
         'Показать %d последних строк',
       ),
@@ -927,7 +1034,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s marked %s inline comment(s) as done.' => array(
         array(
-          '%s пометил(а) внутристрочный комментарий как завершённый.',
+          '%s пометил(а) %s внутристрочный комментарий как завершённый.',
           '%s пометил(а) %s внутристрочных комментария как завершённые.',
           '%s пометил(а) %s внутристрочных комментариев как завершённые.',
         ),
@@ -935,7 +1042,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s marked %s inline comment(s) as not done.' => array(
         array(
-          '%s пометил(а) внутристрочный комментарий как незавершённый.',
+          '%s пометил(а) %s внутристрочный комментарий как незавершённый.',
           '%s пометил(а) %s внутристрочных комментария как незавершённые.',
           '%s пометил(а) %s внутристрочных комментариев как незавершённые.',
         ),
@@ -1200,7 +1307,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       'Mail sent in the last %s day(s).' => array(
-        'Почта, отправленная в последний день.',
+        'Почта, отправленная в последний %s день.',
         'Почта, отправленная в последние %s дня.',
         'Почта, отправленная в последние %s дней.',
       ),
@@ -1295,7 +1402,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       'Not enough process slots to schedule the other %s repository(s) for updates yet.' => array(
-        'Недостаточно слотов для того чтобы поместить в очередь другой репозиторий для обновления.',
+        'Недостаточно слотов для того чтобы поместить в очередь другой %s репозиторий для обновления.',
         'Недостаточно слотов для того чтобы поместить в очередь другие %s репозитория для обновления.',
         'Недостаточно слотов для того чтобы поместить в очередь другие %s репозиториев для обновления.',
       ),
@@ -1389,14 +1496,14 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
         '%s обновил(а) список приглашённых для %s, приглашены: %4$s; приглашения отозваны: %6$s.',
 
       'Restart %s build(s)?' => array(
-        'Перезапустить сборку?',
+        'Перезапустить %s сборку?',
         'Перезапустить %s сборки?',
         'Перезапустить %s сборок?',
       ),
 
       '%s is starting in %s minute(s), at %s.' => array(
         array(
-          '%s начинается через минуту, в %3$s.',
+          '%s начинается через %s минуту, в %3$s.',
           '%s начинается через %s минуты, в %3$s.',
           '%s начинается через %s минут, в %3$s.',
         ),
@@ -1452,105 +1559,6 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
           '%s удалил(а) менеджеров аккаунтов: %3$s.',
         ),
       ),
-
-      // Overall
-      '%s Day(s) Ago' => [
-        '%s день назад',
-        '%s дня назад',
-        '%s дней назад',
-      ],
-      'Fullscreen' => 'На весь экран',
-      'Preamble' => 'Преамбула',
-      'Profile' => 'Профиль',
-      'Log Out %s' => 'Выход',
-      'Availability' => 'Доступность',
-      'Administrator' => 'Администратор',
-      'Commits' => 'Фиксации',
-      'Revisions' => 'Ревизии',
-      'Tasks' => 'Задачи',
-      'Badges' => 'Бейджи',
-      'Log Out' => 'Выход',
-      'Save Query' => 'Сохранить запрос',
-      'Use Results' => 'Использовать результаты',
-      'From' => 'От',
-      'Via' => 'Через',
-      'Old' => 'Старый',
-      'New' => 'Новый',
-      'Code' => 'Код',
-      'Closed' => 'Закрыто',
-      'Branch: %s' => 'Ветка: %s',
-      'Next' => 'Далее',
-      'Commit' => 'Фиксация',
-      'COMMIT' => 'Фиксация',
-      'Committed' => 'Зафиксировано',
-      'Details' => 'Детали',
-      'Status' => 'Статус',
-      'Remove' => 'Удалить',
-      'Select' => 'Выбрать',
-      'Auditors' => 'Аудиторы',
-      'Home' => 'Главная',
-      'Branches' => 'Ветки',
-      'Tags' => 'Теги',
-      'Graph' => 'Граф',
-      'History' => 'История',
-      'Create Custom Pages' => 'Создать пользовательские страницы',
-      'Explore More Applications' => 'Посмотреть больше приложений',
-      'Customize Menu...' => 'Настроить меню...',
-      'Create' => 'Создать',
-      'Create New...' => 'Создать...',
-      'Update' => 'Обновить',
-      'Continue' => 'Продолжить',
-      'Send' => 'Отправить',
-      'Submit' => 'Отправить',
-      'Save' => 'Сохранить',
-      'Save Changes' => 'Сохранить изменения',
-      'Changes saved.' => 'Изменения сохранены',
-      'Add Comment' => 'Добавить комментарий',
-      'Add Action...' => 'Добавить действие...',
-      'Move on Workboard' => 'Перенести на рабочую область',
-      'Change Project Tags' => 'Изменить теги проекта',
-      'Change Subscribers' => 'Изменить подписчиков',
-      'Take Action' => 'Выполнить действие',
-      'Join' => 'Присоединиться',
-      'Cancel' => 'Отменить',
-      'Close' => 'Закрыть',
-      'No data.' => 'Нет данных.',
-      'Partial' => 'Частично',
-      'Partial Upload' => 'Загрузка по частям',
-      'View All' => 'Показать всё',
-      'All' => 'Всё',
-      'Title' => 'Заголовок',
-      'Action' => 'Действие',
-      'Actions' => 'Действия',
-      'View Raw' => 'Показать в исходном виде',
-      'PREVIEW' => 'ПРЕДПРОСМОТР',
-      'Preview' => 'Предпросмотр',
-      'Help' => 'Помощь',
-      'Name' => 'Наименование',
-      'Document Preview' => 'Предпросмотр документа',
-      'Description Preview' => 'Предпросмотр описания',
-      'Configure Form' => 'Отредактировать форму',
-      'Description' => 'Описание',
-      'Comments' => 'Комментарии',
-      'Author' => 'Автор',
-      'Subscribers' => 'Подписчики',
-      'Required' => 'Требуется',
-      'Visible To' => 'Доступно для',
-      'Editable By' => 'Может редактироваться',
-      'Policies' => 'Политики',
-      'Default' => 'По умолчанию',
-      'Prototype' => 'Прототип',
-      '(Show Details)' => '(Показать подробности)',
-      'Change Details' => 'Изменить подробности',
-      'Updated' => 'Обновлено',
-      'Loading...' => 'Загрузка...',
-      'None' => 'Нет',
-      'Recent Activity' => 'Последняя активность',
-      '%s mentioned this in %s.' => '%s был(а) упомянут(а) в %s.',
-      '%s changed the visibility from "%s" to "%s".' => '%s изменил(а) видимость с "%s" на "%s".',
-      '%s changed the edit policy from "%s" to "%s".' => '%s изменил(а) политику редактирования с "%s" на "%s".',
-      'Choose which language you would like the Phabricator UI to use.' => 'Выберите, какой язык вы бы хотели использовать для интерфейса Фабрикатора',
-      'Choose the pronoun you prefer.' => 'Выберите местоимение, которое для вас наиболее уместно.',
 
       // Search
       'Query' => 'Запрос',
@@ -1721,6 +1729,15 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Can Configure Application' => 'Может сконфигурировать приложение',
 
       // Differential
+      'This revision now requires changes to proceed.' => 'Данная ревизия требует изменений для продолжения.',
+      'This revision is now accepted and ready to land.' => 'Данная ревизия отныне принята и готова для подключения.',
+      'This revision now requires review to proceed.' => 'Данная ревизия требует рецензии для продолжения.',
+      'Edit Revision' => 'Редактировать ревизию',
+      'Update Diff' => 'Обновить изменение',
+      'Edit Related Revisions...' => 'Редактировать связанные ревизии...',
+      'Edit Parent Revisions' => 'Редактировать родителей',
+      'Edit Child Revisions' => 'Редактировать потомков',
+      'Land Revision' => 'Подключить ревизию',
       'Create Diff' => 'Создать изменение',
       'Author: %s' => 'Автор: %s',
       'Active Revisions' => 'Активные ревизии',
@@ -1768,6 +1785,29 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Added Reviewers' => 'Добавлены рецензенты',
       'Commandeered' => 'Взято',
       'Reopened' => 'Снова активно',
+      '%s updated this revision to %s.' => '%s обновил(а) свою ревизию на %s.',
+      '%s created this revision.' => '%s создал данное изменение.',
+      '%s requested changes to this revision.' => '%s запросил изменения на данную ревизию.',
+      '%s planned changes to this revision.' => '%s запланировал изменения для данной ревизии.',
+      '%s abandoned this revision.' => '%s забросил эту ревизию.',
+      '%s commented on this revision.' => '%s прокомментировал эту ревизию.',
+      '%s accepted this revision.' => '%s принял эту ревизию.',
+      '%s closed this revision.' => '%s закрыл эту ревизию.',
+      '%s requested a review of this revision.' => '%s запросил рецензию на эту ревизию.',
+      '%s reclaimed this revision.' => '%s восстановил эту ревизию.',
+      '%s updated this revision.' => '%s обновил эту ревизию.',
+      '%s resigned from this revision.' => '%s отказался от этой ревизии.',
+      '%s summarized this revision.' => '%s прорезюмировал эту ревизию.',
+      '%s explained the test plan for this revision.' => '%s расписал план тестирования этой ревизии.',
+      '%s added reviewers to this revision.' => '%s добавил рецензентов для этой ревизии.',
+      '%s added CCs to this revision.' => '%s добавил подписчиков для этой ревизии.',
+      '%s commandeered this revision.' => '%s взял на себя эту ревизию.',
+      '%s reopened this revision.' => '%s открыл снова эту ревизию.',
+      '%s added an inline comment.' => '%s добавил внутристрочный комментарий.',
+      
+      '%s completed building %s.' => '%s завершил сборку %s.',
+      '%s started building %s.' => '%s начал сборку %s.',
+      '%s failed to build %s!' => '%s не смог собрать %s!',
 
       // Maniphest
       'Open'      => 'Открыто',
@@ -1840,6 +1880,65 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       "Compose Image" => "Составить изображение",
       "Choose Background Color" => "Выбрать фоновый цвет",
       "Choose Icon" => "Выбрать иконку",
+      'Pushed' => 'Вставлено',
+      'Parents' => 'Родители',
+      'Reviewers' => 'Рецензенты',
+      
+      'This file was added.'        => 'Этот файл был добавлен',
+      'This image was added.'       => 'Это изображение было добавлено',
+      'This directory was added.'   => 'Эта директория была добавлена',
+      'This binary file was added.' => 'Этот бинарный файл был добавлен',
+      'This symlink was added.'     => 'Эта символическая ссылка была добавлена',
+      'This submodule was added.'   => 'Этот подмодуль был добавлен',
+
+      'This file was deleted.'        => 'Этот файл был удалён',
+      'This image was deleted.'       => 'Это изображение было удалено',
+      'This directory was deleted.'   => 'Эта директория была удалена',
+      'This binary file was deleted.' => 'Этот бинарный файл был удалён',
+      'This symlink was deleted.'     => 'Эта символическая ссылка была удалена',
+      'This submodule was deleted.'   => 'Этот подмодуль был удалён',
+      
+      'This file was moved from %s.'        => 'Этот файл был перемещён сюда из %s',
+      'This image was moved from %s.'       => 'Это изображение было перемещено сюда из %s',
+      'This directory was moved from %s.'   => 'Эта директория была перемещена сюда из %s',
+      'This binary file was moved from %s.' => 'Этот бинарный файл был перемещён сюда из %s',
+      'This symlink was moved from %s.'     => 'Эта символическая ссылка была перемещена сюда из %s',
+      'This submodule was moved from %s.'   => 'Этот подмодуль был перемещён сюда из %s',
+
+      'This file was copied from %s.'        => 'Этот файл был скопирован сюда из %s',
+      'This image was copied from %s.'       => 'Это изображение было скопировано сюда из %s',
+      'This directory was copied from %s.'   => 'Эта директория была скопирована сюда из %s',
+      'This binary file was copied from %s.' => 'Этот бинарный файл был скопирован сюда из %s',
+      'This symlink was copied from %s.'     => 'Эта символическая ссылка была скопирована сюда из %s',
+      'This submodule was copied from %s.'   => 'Этот подмодуль был скопирован сюда из %s',
+
+      'This file was moved to %s.'        => 'Этот файл был перемещён в %s',
+      'This image was moved to %s.'       => 'Это изображение было перемещено в %s',
+      'This directory was moved to %s.'   => 'Эта директория была перемещена в %s',
+      'This binary file was moved to %s.' => 'Этот бинарный файл был перемещён в %s',
+      'This symlink was moved to %s.'     => 'Эта символическая ссылка была перемещена в %s',
+      'This submodule was moved to %s.'   => 'Этот подмодуль был перемещён в %s',
+
+      'This file was copied from %s.'        => 'Этот файл был скопирован в %s',
+      'This image was copied from %s.'       => 'Это изображение было скопировано в %s',
+      'This directory was copied from %s.'   => 'Эта директория была скопирована в %s',
+      'This binary file was copied from %s.' => 'Этот бинарный файл был скопирован в %s',
+      'This symlink was copied from %s.'     => 'Эта символическая ссылка была скопирована в %s',
+      'This submodule was copied from %s.'   => 'Этот подмодуль был скопирован в %s',
+
+      'This file was deleted after being copied to %s.'        => 'Этот файл был удалён после копирования из %s',
+      'This image was deleted after being copied to %s.'       => 'Это изображение удалено после копирования из %s',
+      'This directory was deleted after being copied to %s.'   => 'Эта директория была удалена после копирования из %s',
+      'This binary file was deleted after being copied to %s.' => 'Этот бинарный файл был удалён после копирования из %s',
+      'This symlink was deleted after being copied to %s.'     => 'Эта символическая ссылка была удалена после копирования из %s',
+      'This submodule was deleted after being copied to %s.'   => 'Этот подмодуль был удалён после копирования из %s',
+      
+      'This file was not modified.' => 'Данный файл не был изменён',
+      'This is an image.'           => 'Это изображение',
+      'This is a directory.'        => 'Это директория',
+      'This is a binary file.'      => 'Это бинарный файл',
+      'This is a symlink.'          => 'Это символическая ссылка',
+      'This is a submodule.'        => 'Это подмодуль',
 
       // Signs
       'You signed this document on %s.' => 'Вы подписали данный документ %s',
