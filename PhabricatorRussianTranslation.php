@@ -19,6 +19,9 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
         '%s дня назад',
         '%s дней назад',
       ],
+      'Yes' => 'Да',
+      'No' => 'Нет',
+      'Learn More' => 'Узнать больше',
       'Log In' => 'Войти',
       'Register Account' => 'Зарегистририовать аккаунт',
       'Register' => 'Регистрация',
@@ -40,6 +43,10 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Use Results' => 'Использовать результаты',
       'From' => 'От',
       'Via' => 'Через',
+      'Via %s' => 'Через %s',
+      'Web' => 'Вебсайт',
+      'Console' => 'Терминал',
+      'Daemon' => 'Служба',
       'Old' => 'Старый',
       'New' => 'Новый',
       'Code' => 'Код',
@@ -54,6 +61,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Remove' => 'Удалить',
       'Select' => 'Выбрать',
       'Auditors' => 'Аудиторы',
+      'Auditors: %s' => 'Аудиторы: %s',
       'Home' => 'Главная',
       'Branches' => 'Ветки',
       'Tags' => 'Теги',
@@ -71,6 +79,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Save' => 'Сохранить',
       'Save Changes' => 'Сохранить изменения',
       'Changes saved.' => 'Изменения сохранены',
+      'Changes (%s)' => 'Изменения (%s)',
       'Add Comment' => 'Добавить комментарий',
       'Add Action...' => 'Добавить действие...',
       'Move on Workboard' => 'Перенести на рабочую область',
@@ -78,6 +87,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Change Subscribers' => 'Изменить подписчиков',
       'Take Action' => 'Выполнить действие',
       'Join' => 'Присоединиться',
+      'Code Block' => 'Блок кода',
+      'Meme' => 'Мем',
       'Cancel' => 'Отменить',
       'Close' => 'Закрыть',
       'No data.' => 'Нет данных.',
@@ -105,18 +116,56 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Editable By' => 'Может редактироваться',
       'Policies' => 'Политики',
       'Default' => 'По умолчанию',
+      '(Default)' => '(По умолчанию)',
       'Prototype' => 'Прототип',
       '(Show Details)' => '(Показать подробности)',
       'Change Details' => 'Изменить подробности',
       'Updated' => 'Обновлено',
       'Loading...' => 'Загрузка...',
       'None' => 'Нет',
+      'Flagged' => 'Помеченное флажками',
+      'Tooltip' => 'Подсказка',
       'Recent Activity' => 'Последняя активность',
       '%s mentioned this in %s.' => '%s был(а) упомянут(а) в %s.',
       '%s changed the visibility from "%s" to "%s".' => '%s изменил(а) видимость с "%s" на "%s".',
       '%s changed the edit policy from "%s" to "%s".' => '%s изменил(а) политику редактирования с "%s" на "%s".',
       'Choose which language you would like the Phabricator UI to use.' => 'Выберите, какой язык вы бы хотели использовать для интерфейса Фабрикатора',
       'Choose the pronoun you prefer.' => 'Выберите местоимение, которое для вас наиболее уместно.',
+      'Menu Items' => 'Пункты меню',
+      'Current Menu Items' => 'Текущие пункты меню',
+      'Add New Menu Item...' => 'Добавить новый пункт меню...',
+      'Edit Menu Item' => 'Редактирование пункта меню',
+      'Application' => 'Приложение',
+      'Divider' => 'Разделитель',
+      'Form' => 'Форма',
+      'Label' => 'Заголовок',
+      'Link' => 'Ссылка',
+      'Motivator' => 'Мотиватор',
+      'Documentation' => 'Документация',
+      'Create Menu Item' => 'Создать пункт меню',
+      'This is a visual divider which you can use to separate sections in the menu. It does not have any configurable options.' =>
+        'Это визуальный делитель, который вы можете использовать для разделения пунктов меню. У него нет настраиваемых параметров.',
+      'Motivate your team with inspirational quotes from great minds. This menu item shows a new quote every day.' =>
+        'Мотивируйте свою команду вдохновляющими цитатами из великих умов. Этот пункт меню показывает новую цитату каждый день.',
+      'Source' => 'Источник',
+      'Configure Menu' => 'Настроить меню',
+      'Personal' => 'Персональное',
+      'Personal Settings' => 'Персональное настройки',
+      'Manage Menu' => 'Настройка меню',
+      'Personal Menu Items' => 'Персональные пункты меню',
+      'Edit the menu for your personal account.' => 'Отредактируйте меню для своей личной учетной записи.',
+      'Global Menu Items' => 'Глобальные пункты меню',
+      'Edit the global default menu for all users.' => 'Отредактируйте глобальное меню, которое будет доступно всем пользователям.',
+      'Global' => 'Глобальное',
+      'You can not post an empty comment.' => 'Вы не можете разместит пустой комментарий',
+      'This %s already has that view policy.' => 'Это %s уже имеет данную политику просмотра.',
+      'This %s already has that edit policy.' => 'Это %s уже имеет данную политику редактирования.',
+      'This %s already has that join policy.' => 'Это %s уже имеет данную политику вступления.',
+      'All users are already subscribed to this %s.' => 'Все пользователи уже подписались на это %s',
+      'This object is already in that space.' => 'Этот объект уже находится в данном пространстве',
+      'Edges already exist; transaction has no effect.' => 'Грани уже существуют; транзакция не оказала никакого эффекта.',
+      'You have not moved this object to any columns it is not already in.' => 'Вы не переместили этот объект в какие-то колонки, в которых он ещё не был.',
+      'Transaction (of type "%s") has no effect.' => 'Транзакция (типа "%s") не оказала никакого эффекта.',
       
       'No daemon(s) with id(s) "%s" exist!' => array(
         'Не найдено служб с данным id %s!',
@@ -235,6 +284,138 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
           '%s объединил(а) %d задачу %3$s с %4$s.',
           '%s объединил(а) %d задачи %s с %s.',
           '%s объединил(а) %d задач %s с %s.',
+        ),
+      ),
+      
+      '%s merged %s task(s): %s.' => array(
+        array(
+          '%s объединил(а) задачу: %3$s.',
+          '%s объединил(а) задачи: %3$s.',
+        ),
+      ),
+
+      '%s merged %s task(s) %s into %s.' => array(
+        array(
+          '%s объединил(а) %3$s в %4$s.',
+          '%s объединил(а) %3$s в %4$s.',
+        ),
+      ),
+
+      '%s added %s voting user(s): %s.' => array(
+        array(
+          '%s добавил(а) %s голосующего пользователя: %3$s.',
+          '%s добавил(а) %s голосующих пользователя: %3$s.',
+          '%s добавил(а) %s голосующих пользователей: %3$s.',
+        ),
+      ),
+
+      '%s removed %s voting user(s): %s.' => array(
+        array(
+          '%s удалил(а) %s голосующего пользователя: %3$s.',
+          '%s удалил(а) %s голосующих пользователя: %3$s.',
+          '%s удалил(а) %s голосующих пользователей: %3$s.',
+        ),
+      ),
+
+      '%s added %s subtask(s): %s.' => array(
+        array(
+          '%s добавил(а) подзадачу: %3$s.',
+          '%s добавил(а) подзадачи: %3$s.',
+        ),
+      ),
+
+      '%s added %s parent task(s): %s.' => array(
+        array(
+          '%s добавил(а) родительскую задачу: %3$s.',
+          '%s добавил(а) родительские задачи: %3$s.',
+        ),
+      ),
+
+      '%s removed %s subtask(s): %s.' => array(
+        array(
+          '%s удалил(а) подзадачу: %3$s.',
+          '%s удалил(а) подзадачи: %3$s.',
+        ),
+      ),
+
+      '%s removed %s parent task(s): %s.' => array(
+        array(
+          '%s удалил(а) родительскую задачу: %3$s.',
+          '%s удалил(а) родительские задачи: %3$s.',
+        ),
+      ),
+
+      '%s added %s subtask(s) for %s: %s.' => array(
+        array(
+          '%s добавил(а) подзадачу для %3$s: %4$s.',
+          '%s добавил(а) подзадачи для %3$s: %4$s.',
+        ),
+      ),
+
+      '%s added %s parent task(s) for %s: %s.' => array(
+        array(
+          '%s добавил(а) родительскую задачу для %3$s: %4$s.',
+          '%s добавил(а) родительские задачи для %3$s: %4$s.',
+        ),
+      ),
+
+      '%s removed %s subtask(s) for %s: %s.' => array(
+        array(
+          '%s удалил(а) подзадачу задачу для %3$s: %4$s.',
+          '%s удалил(а) подзадачу задачи для %3$s: %4$s.',
+        ),
+      ),
+
+      '%s removed %s parent task(s) for %s: %s.' => array(
+        array(
+          '%s удалил(а) родительскую задачу для %3$s: %4$s.',
+          '%s удалил(а) родительские задачи для %3$s: %4$s.',
+        ),
+      ),
+
+      '%s edited subtask(s), added %s: %s; removed %s: %s.' =>
+        '%s изменил(а) подзадачи, добавлено: %3$s; удалено: %5$s.',
+
+      '%s edited subtask(s) for %s, added %s: %s; removed %s: %s.' =>
+        '%s изменил(а) подзадачи для %s, добавлено: %4$s; удалено: %6$s.',
+
+      '%s edited parent task(s), added %s: %s; removed %s: %s.' =>
+        '%s изменил(а) родительские задачи, добавлено: %3$s; удалено: %5$s.',
+
+      '%s edited parent task(s) for %s, added %s: %s; removed %s: %s.' =>
+        '%s изменил(а) родительские задачи для %s, добавлено: %4$s; удалено: %6$s.',
+
+      '%s edited answer(s), added %s: %s; removed %d: %s.' =>
+        '%s изменил(а) ответы, добавлено: %3$s; удалено: %5$s.',
+
+      '%s added %s answer(s): %s.' => array(
+        array(
+          '%s добавил(а) ответ: %3$s.',
+          '%s добавил(а) ответы: %3$s.',
+        ),
+      ),
+
+      '%s removed %s answer(s): %s.' => array(
+        array(
+          '%s удалил(а) ответ: %3$s.',
+          '%s удалил(а) ответы: %3$s.',
+        ),
+      ),
+
+     '%s edited question(s), added %s: %s; removed %s: %s.' =>
+        '%s изменил(а) вопрос(ы), добавлено: %3$s; удалено: %5$s.',
+
+      '%s added %s question(s): %s.' => array(
+        array(
+          '%s добавил(а) вопрос: %3$s.',
+          '%s добавил(а) вопросы: %3$s.',
+        ),
+      ),
+
+      '%s removed %s question(s): %s.' => array(
+        array(
+          '%s удалил(а) вопрос: %3$s.',
+          '%s удалил(а) вопросы: %3$s.',
         ),
       ),
 
@@ -1215,7 +1396,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
         'Автоматически подписанная цель не была затронута: %2$s.',
         'Автоматически подписанные цели не были затронуты: %2$s.',
       ),
-
+      
       'Declined to resubscribe %s target(s) because they previously unsubscribed: %s.' => array(
         'Не удалось перенаправить подписку на объект, потому что ранее он был отписан: %2$s.',
         'Не удалось перенаправить подписку на объекты, потому что ранее они были отписаны: %2$s.',
@@ -1586,7 +1767,11 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Open Documents' => 'Активные документы',
       'More Options' => 'Больше опций',
       'Spaces' => 'Пространства',
+      'Space %s: %s' => 'Пространство %s: %s',
       'No flags found.' => 'Флажков не найдено',
+      'Document Status' => 'Статус документа',
+      'Document Types' => 'Типы документа',
+      'Select a document type...' => 'Выберите типы документа',
 
       // Edit
       'Edit' => 'Редактирование',
@@ -1613,6 +1798,24 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Type a username, project, mailing list, or function...' => 'Введите имя пользователя, проект, список рассылки или функцию...',
       'Type a project name or function...' => 'Введите название проекта или функцию...',
       'Type a space name...' => 'Введите название пространства...',
+      'Type a user, project or package name...' => 'Введите имя пользователя, проекта или пакета...',
+      'Type an application name...' => 'Введите название приложения...',
+      'Type a room title...' => 'Введите название комнаты...',
+      'Type a dashboard name...' => 'Введите название доски...',
+      'Type a form name...' => 'Введите название формы...',
+      'Type a task priority name...' => 'Введите название приоритета задачи...',
+      'Type a task status name or function...' => 'Введите название статуса задачи или функции...',
+      'Edit Commit: %s' => 'Редактирование фиксации: %s',
+      'Conpherence Room' => 'Комната конференции',
+      'Open Parents' => 'Открытые родители',
+      'Open Subtasks' => 'Открытые подзадачи',
+      '(Show All)' => '(Показать все)',
+      'Show Only Tasks With Open Parents' => 'Показать толкьо задачи с открытыми родителями',
+      'Show Only Tasks Without Open Parents' => 'Показать толкьо задачи без открытых родителей',
+      'Show Only Tasks With Open Subtasks' => 'Показать только задачи с открытыми подзадачами',
+      'Show Only Tasks Without Open Subtasks' => 'Показать только задачи без открытых подзадач',
+      'Date Updated (Latest First)' => 'Дате обновления (сначала новые)',
+      'Date Updated (Oldest First)' => 'Дате обновления (сначала старые)',
 
       // Apps
       'Audit' => 'Аудит',
@@ -1804,10 +2007,16 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       '%s commandeered this revision.' => '%s взял на себя эту ревизию.',
       '%s reopened this revision.' => '%s открыл снова эту ревизию.',
       '%s added an inline comment.' => '%s добавил внутристрочный комментарий.',
-      
-      '%s completed building %s.' => '%s завершил сборку %s.',
-      '%s started building %s.' => '%s начал сборку %s.',
-      '%s failed to build %s!' => '%s не смог собрать %s!',
+      '%s completed building %s.' => '%s завершила сборку %s.',
+      '%s started building %s.' => '%s начала сборку %s.',
+      '%s failed to build %s!' => '%s не смогла собрать %s!',
+      '%s failed to build %s for %s.' => '%s не смогла собрать %s для %s.',
+      '%s completed building %s for %s.' => '%s завершила сборку %s для %s.',
+      '%s started building %s for %s.' => '%s начала сборку %s для %s.',
+      '%s edited a custom field on %s.' => '%s изменил(а) пользовательское поле на %s.',
+      'Packages' => 'Пакеты',
+      'Authored by %s on %s.' => 'За авторством %s от %s.',
+      'Autoclose?' => 'Автозакрытие?',
 
       // Maniphest
       'Open'      => 'Открыто',
@@ -1817,8 +2026,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Wish' => 'Мечты',
       'Wishlist' => 'Список желаний',
       'Low' => 'Низкий',
-      'Normal' => 'Низкий',
-      'High' => 'Низкий',
+      'Normal' => 'Нормальный',
+      'High' => 'Высокий',
       'Triage' => 'Неотсортирован',
       'Needs Triage' => 'Требует выбора',
       'Unbreak!' => 'Починить!',
@@ -1830,8 +2039,34 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Closed, Duplicate' => 'Закрыто, дубликат',
       'Spite' => 'Озлобленность',
       'Closed, Spite' => 'Закрыто, со злостью',
-
-	    'Task Graph' => 'График задачи',
+      'Reports' => 'Отчёты',
+      'Batch Task Editor' => 'Редактор пакетной обработки задач',
+      'Mentioned In' => 'Упомянуто в',
+      '%s moved this task from %s to %s on the %s board.' => '%s переместил(а) эту задачу с %s в %s на доске %s.',
+      '%s moved this task to %s on the %s board.' => '%s переместил(а) эту задачу на %s на доске %s.',
+      '%s moved this task on %s board(s): %s.' => '%s переместил(а) эту задачу на доску %s: %s.',
+      '%s moved %s from %s to %s on the %s board.' => '%s переместил(а) %s с %s в %s на доске %s.',
+      '%s moved %s to %s on the %s board.' => '%s переместил(а) %s в %s на доске %s.',
+      '%s moved %s on %s board(s): %s.' => '%s переместил(а) %s в %s на доску: %s.',      
+      '%s created subtask %s.' => '%s создал(а) подзадачу %s.',
+      '%s reopened subtask %s as %s.' => '%s снова открыл(а) подзадачу %s как %s.',
+      '%s reopened subtask %s as %s.' => '%s снова открыл(а) подзадачу %s как %s.',
+      '%s closed subtask %s as %s.' => '%s закрыл(а) задачу %s как %s.',
+      '%s changed the status of subtask %s from %s to %s.' => '%s изменил(а) статус подзадачи %s с %s на %s.',
+      '%s reopened %s, a subtask of %s, as %s.' => '%s переоткрыл(а) %s, подзадачу задачи %s, как %s.',
+      '%s closed %s, a subtask of %s, as %s.' => '%s закрыл(а) %s, подзадачу задачи %s, как %s.',
+      '%s changed the status of %s, a subtask of %s, from %s to %s.' => '%s изменил(а) статус %s, подзадачи задачи %s, с %s на %s.',
+      'Build Passed' => 'Сборка прошла',
+      'Build Failed' => 'Сборка провалилась',
+      'Build Status' => 'Статус сборки',
+      'Commented On' => 'Прокомментировано в',
+      'Changed Policy' => 'Изменены политики',
+      'Changed Subscribers' => 'Изменены подписчики',
+      'Created' => 'Создано',
+      'Retitled' => 'Переименовано',
+      
+      'Comment for this transaction was not loaded.' => 'Комментарий для этой транзакции не был загружен',
+	    'Task Graph' => 'Граф задачи',
 	    'History Graph' => 'Граф истории',
 	    'Task Author' => 'Автор задачи',
 	    'Edit Related Tasks...'=>'Редактировать связанные задачи...',
@@ -1840,6 +2075,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 	    'Close As Duplicate' => 'Закрыть как дубликат',
 	    'Close This Task As a Duplicate Of' => 'Закрыть данную задачу как дубликат следующей',
 	    'Merge Into Selected Task' => 'Объединить с выбранной задачей',
+	    'Related Objects' => 'Связанные объекты',
+	    'Mentions' => 'Упоминания',
 	    'Edit Related Objects...' => 'Редактировать связанные объекты...',
 	    'Edit Commit' => 'Редактировать фиксацию',
 	    'Edit Commits' => 'Редактировать фиксации',
@@ -1868,8 +2105,12 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Type a user, project, or mailing list name...' => 'Введите имя пользователя, проект или email...',
       'Queries' => 'Запросы',
       'Query: %s' => 'Запрос: %s',
-      'Assigned' => 'Назначено',
-      'Assigned: %s' => 'Назначено: %s',
+      'Search...' => 'Поиск...',
+      'Search Parent Tasks' => 'Найти родительские задачи',
+      'Search Subtasks' => 'Найти подзадачи',
+      'Parent IDs' => 'Родительские ID',
+      'Assigned' => 'Ответственный',
+      'Assigned: %s' => 'Ответственный: %s',
       'Authored' => 'Собственные',
       'Authored By' => 'За авторством',
       'Subscribed' => 'Подписан',
@@ -1976,7 +2217,9 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
         'Вы можете записать освобождение подписи, если пользователь подписал эквивалентный документ. '.
         'Другие приложения будут вести себя так, будто пользователь подписал этот документ.',
 
-      'Assigned To' => 'Назначено на',
+      'Statuses' => 'Статусы',
+      'Priorities' => 'Приоритеты',
+      'Assigned To' => 'Ответственный',
       'Assigned to Me' => 'Назначено на меня',
       'Advanced Filter...' => 'Расширенный фильтр...',
       'In All Projects' => 'Во всех проектах',
@@ -2039,6 +2282,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Select current viewer.' => 'Выбрать текущее лицо.',
 
       '%s created this task.' => '%s создал(а) эту задачу',
+      '%s renamed this task from %s to %s.' => '%s переименовал(а) эту задачу с %s на %s.',
       '%s closed %s as "%s".' => '%s закрыл(а) %s как "%s".',
       '%s updated the image for %s from %s to %s.' => '%s обновил(а) изображение для %s с %s на %s.',
       '%s lowered the priority of %s from "%s" to "%s".' => '%s понизил(а) приоритет %s с "%s" на "%s".',
@@ -2154,6 +2398,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       '%s deleted %s.' => '%s удалил(а) %s.',
       '%s set %s to %s on %s.' => '%s установил(а) %s для %s на %s.',
       '%s changed %s from %s to %s on %s.' => '%s изменил(а) %s с %s на %s у %s.',
+      '%s renamed %s from %s to %s.' => '%s переименовал(а) %s с %s на %s.',
+      'Tasks must have a title.' => 'Задачи должны иметь заголовок.',
 
       // Diffusion
       'Host and Browse Repositories' => 'Хранение и просмотр репозиториев',
@@ -2177,14 +2423,13 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Backlog' => 'Нужно сделать',
       'Batch Edit Tasks...' => 'Обработка задач...',
       'Workboard' => 'Доска задач',
-      'Project' => 'Проект',
       'Projects' => 'Проекты',
       'Get Organized' => 'Организовать',
       'Create Project' => 'Создать проект',
       'Create New Project' => 'Создать новый проект',
       'Joined' => 'Членство',
       'Watching' => 'Наблюдаемые',
-      'Active' => 'Активно',
+      'Active' => 'Активные',
       '%s created this project.' => '%s создал(а) данный проект.',
       "%s set this project's icon to %s." => '%s установил(а) иконкой этого проекта %s.',
       '%s renamed this project from "%s" to "%s".' => '%s переименовал(а) этот проект с "%s" на "%s".',
@@ -2245,6 +2490,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       '%s created this object with visibility "%s".' => '%s создал(а) данный проект с видимостью "%s".',
       '%s created this object with edit policy "%s".' => '%s создал(а) данный проект с политикой редактирования "%s".',
       '%s created this object with join policy "%s".' => '%s создал(а) данный проект с политикой присоединения "%s".',
+      '%s created this object in space %s.' => '%s создал(а) этот объект в пространстве %s.',
+      '%s shifted this object from the %s space to the %s space.' => '%s переместил(а) данный объект из пространства %s в пространство %s.',
       "%s updated this project's image from %s to %s." => "%s обновил(а) изображение данного проекта с %s на %s.",
       "Edit Column" => "Редактировать колонку",
       "Hide Column" => "Скрыть колонку",
@@ -2255,11 +2502,13 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       "Hashtags" => "Хештеги",
       "You are a member and you will receive mail that is sent to all project members." =>
         "Вы являетесь участником, и вы будете получать письма, которые будут получать все участники проекта.",
+      'Normal Project' => 'Обычный проект',
+      'Users with access may join and leave this project.' => 'Пользователи с доступом могут присоединиться и выйти из данного проекта.',
 
       // Profiles
       'User Accounts and Profiles' => 'Аккаунт пользователя и профили',
       'Enabled' => 'Активно',
-      'User' => 'Пользователь',
+      'User' => 'Живой человек',
       'User Account' => ' Аккаунт пользователя',
       'People' => 'Люди',
       'User Since' => 'Пользователь с',
@@ -2267,7 +2516,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Not Approved' => 'Неодобренный',
       'Unverified' => 'Неподтверждённый',
       'Verified' => 'Подтверждённый',
-      'Available' => 'Доступно',
+      'Available' => 'Доступен',
       'Edit Profile' => 'Редактировать профиль',
       'Edit Profile Picture' => 'Редактировать изображение профиля',
       'Remove Administrator' => 'Удалить администратора',
@@ -2319,6 +2568,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Last Author' => 'Последний автор',
       'Updated %s' => 'Обновлено %s',
       'Table of Contents' => 'Таблица с информацией',
+      'Contents' => 'Содержание',
       'Document Hierarchy' => 'Аерархия документа',
       'New Document' => 'Новый документ',
       'Edit Document' => 'Редактировать документ',
@@ -2329,9 +2579,16 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Delete Document?' => 'Удалить документ?',
       'Current Path' => 'Текущий путь',
       'New Path' => 'Новый путь',
+      'Path' => 'Путь',
       'Content' => 'Контент',
-      'Edit Notes' => 'Редактировать заметки',
-      'To view a wiki document, you must also be able to view all of its parents.' => 'Чтобы посмотреть вики-документ, вы должны также иметь возможность видеть всех его родителей.',
+      'Edit Notes' => 'Заметки',
+      'To view a wiki document, you must also be able to view all of its parents.' =>
+        'Чтобы посмотреть вики-документ, вы должны также иметь возможность видеть всех его родителей.',
+      'To edit a wiki document, you must also be able to view all of its parents.' => 
+        'Чтобы редактировать документ вики, вы также должны иметь возможность видеть всех его родителей.',
+      'Printable Page' => 'Версия для печати',
+      'Index' => 'Индекс',
+      'Create a new document at' => 'Создать документ в',
 
       // Calendar
       'Event' => 'Событие',
@@ -2398,6 +2655,19 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       '%s invited %s to %s.' => '%s пригласил(а) %s в %s.',
       '%s made %s an all day event.' => '%s сделал(а) %s полнодневным событием.',
       '%s converted %s from an all day event.' => '%s сконвертировал(а) %s из полнодневного события',
+      
+      // Harbormaster
+      'All Buildables' => 'Все собираемые',
+      'Buildable %d' => 'Собираемый %d',
+      'Buildable' => 'Собираемый',
+      'Builds' => 'Сборки',
+      'Browse Builds' => 'Смотреть сборки',
+      'Build %d' => 'Сборка %d',
+      'My Builds' => 'Мои сборки',
+      'All Builds' => 'Все сборки',
+      'Waiting' => 'Ожидающие',
+      'Completed' => 'Завершённые',
+      'No builds found.' => 'Сборок не найдено.',
 
       // Files
       'Files' => 'Файлы',
@@ -2510,6 +2780,27 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Query Errors' => 'Ошибки запроса',
       '"%s" date can not be parsed.' => 'Дата в поле "%s" не может быть обработана',
       '"%s" must be a date before "%s".' => 'Поле "%s" должно быть датой до "%s".',
+      
+      // Policies
+      'Policy Details: %s' => 'Детали политики: %s',
+      'Special Rules' => 'Специальные правила',
+      'This object has special rules which override normal object policy rules:' => 
+        'Этот объект имеет специальные правила, которые переопределяют обычные правила политики объектов:',
+      'Object Policy' => 'Политика объекта',
+      'Can View' => 'Могут видеть',
+      'In detail, this means that these users can take this action, provided they pass all of the checks described above first:' =>
+        'Это означает, что эти пользователи могут выполнить это действие, если они сначала пройдут все проверки, описанные выше:',
+      'Logged in users can take this action.' => 'Авторизованные пользователи могут выполнить это действие.',
+      'Required Capabilities on Other Objects' => 'Необходимые возможности для других объектов',
+      'To access this object, users must have first have access capabilities on these other objects:' =>
+        'Чтобы получить доступ к этому объекту, пользователи должны сначала иметь доступ к следующим объектам:',
+      'Members of a project can always view it.' => 'Члены проекта всегда могут видеть его.',
+      'Users who can edit a project can always join it.' => 'Пользователи, которые могут редактировать проект, могут всегда его видеть.',
+      
+      // Mocks
+      'Click here, or drag and drop images to add them to the mock.' => 
+        'Нажмите здесь или перетащите изображения, чтобы добавить их в макет.'
+      
     );
   }
 
