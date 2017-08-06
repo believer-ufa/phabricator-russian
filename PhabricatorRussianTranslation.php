@@ -37,7 +37,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Commits' => 'Фиксации',
       'Revisions' => 'Ревизии',
       'Tasks' => 'Задачи',
-      'Badges' => 'Бейджи',
+      'Badges' => 'Заслуги',
       'Log Out' => 'Выход',
       'Save Query' => 'Сохранить запрос',
       'Use Results' => 'Использовать результаты',
@@ -78,7 +78,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Submit' => 'Отправить',
       'Save' => 'Сохранить',
       'Save Changes' => 'Сохранить изменения',
-      'Changes saved.' => 'Изменения сохранены',
+      'Changes saved.' => 'Изменения сохранены.',
       'Changes (%s)' => 'Изменения (%s)',
       'Add Comment' => 'Добавить комментарий',
       'Add Action...' => 'Добавить действие...',
@@ -112,8 +112,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Author' => 'Автор',
       'Subscribers' => 'Подписчики',
       'Required' => 'Требуется',
-      'Visible To' => 'Доступно для',
-      'Editable By' => 'Может редактироваться',
+      'Visible To' => 'Видно следующим',
+      'Editable By' => 'Могут редактировать',
       'Policies' => 'Политики',
       'Default' => 'По умолчанию',
       '(Default)' => '(По умолчанию)',
@@ -166,6 +166,30 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Edges already exist; transaction has no effect.' => 'Грани уже существуют; транзакция не оказала никакого эффекта.',
       'You have not moved this object to any columns it is not already in.' => 'Вы не переместили этот объект в какие-то колонки, в которых он ещё не был.',
       'Transaction (of type "%s") has no effect.' => 'Транзакция (типа "%s") не оказала никакого эффекта.',
+      'Download' => 'Скачать',
+      'Changes from before your most recent comment are hidden.' => 'Изменения с вашего последнего комментария скрыты.',
+      'There are a very large number of changes, so older changes are hidden.' =>
+        'Здесь очень много изменений, поэтому более старые изменения были скрыты.',
+      'Show Older Changes' => 'Показать старые изменения',
+      'Weigh In' => 'Комментарии',
+      'Set Sail for Adventure' => 'Написать',
+      
+      'Engineering' => 'IT Инженер',
+      'Choose User Icon' => 'Выберите иконку пользователя',
+      'Operations' => 'Спецоперации',
+      'Resources' => 'Ресурсы',
+      'Design' => 'Дизайн',
+      'Musician' => 'Звук',
+      'Spy' => 'Шпион',
+      'Bot' => 'Бот',
+      'Relationships' => 'Взаимоотношения',
+      'Administration' => 'Администрация',
+      'Security' => 'Служба безопасности',
+      'Logistics' => 'Логистика',
+      'Research' => 'Исследования',
+      'Analysis' => 'Анализ',
+      'Executive' => 'Руководитель',
+      'Animal' => 'Зверёк',
       
       'No daemon(s) with id(s) "%s" exist!' => array(
         'Не найдено служб с данным id %s!',
@@ -1758,7 +1782,6 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Browse Subscribers' => 'Посмотреть подписчиков',
       'Browse Projects' => 'Посмотреть проекты',
       'Browse Document Types' => 'Посмотреть типы документов',
-      'Select' => 'Выбрать',
       'Search All Documents' => 'Выбрать все документы',
       'All Documents' => 'Все документы',
       'Current Application' => 'Текущее приложение',
@@ -2064,6 +2087,9 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Changed Subscribers' => 'Изменены подписчики',
       'Created' => 'Создано',
       'Retitled' => 'Переименовано',
+      'Edit Related Tasks' => 'Редактирование связанных задач',
+      'Save Related Tasks' => 'Сохранить связанные задачи',
+      'Current Tasks' => 'Текущие задачи',
       
       'Comment for this transaction was not loaded.' => 'Комментарий для этой транзакции не был загружен',
 	    'Task Graph' => 'Граф задачи',
@@ -2322,7 +2348,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Change Priority'           => 'Сменить приоритет',
       'Associate Projects'        => 'Ассоциированные проекты',
       'Task'                      => 'Задача',
-      "Done"                      => "Завершено",
+      'Done'                      => "Готово",
       "Edit Favorites"            => "Редактировать изобранное",
 
       // Diffusion
@@ -2531,6 +2557,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'User Policies' => 'Политики пользователей',
       'Advanced' => 'Расширенные',
       'Custom Policy...' => 'Пользовательская политика...',
+      'User Details' => 'Информация о пользователе',
+      'User has not been awarded any badges.' => 'У данного пользователя ещё нет каких-либо заслуг.',
 
       // Conpherence
       'Conpherence Thread' => 'Поток чата',
@@ -2569,7 +2597,7 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Updated %s' => 'Обновлено %s',
       'Table of Contents' => 'Таблица с информацией',
       'Contents' => 'Содержание',
-      'Document Hierarchy' => 'Аерархия документа',
+      'Document Hierarchy' => 'Иерархия документа',
       'New Document' => 'Новый документ',
       'Edit Document' => 'Редактировать документ',
       'Move Document' => 'Переместить документ',
@@ -2799,8 +2827,17 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       
       // Mocks
       'Click here, or drag and drop images to add them to the mock.' => 
-        'Нажмите здесь или перетащите изображения, чтобы добавить их в макет.'
-      
+        'Нажмите здесь или перетащите изображения, чтобы добавить их в макет.',
+      'Edit Mock' => 'Редактировать дизайн',
+      'Close Mock' => 'Закрыть дизайн',
+      'Close Pholio Mock' => 'Закрыть дизайн',
+      'This mock will be closed.' => 'Дизайн станет неактивным.',
+      'Current Revision' => 'Текущая ревизия',
+      'Current Revisions' => 'Текущие ревизии',
+      'Mock History' => 'История дизайна',
+      'Mock Description' => 'Описание дизайна',
+      '%s replaced %s with %s.' => '%s заменил(а) %s на %s.',
+      '%s updated images of %s.' => '%s обновил(а) изображения %s.',
     );
   }
 
