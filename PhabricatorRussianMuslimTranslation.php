@@ -22,8 +22,6 @@ final class PhabricatorRussianMuslimTranslation extends PhutilTranslation {
       '%s added a comment.' => '%s написал(а).',
       'You signed this document on %s.' => 'Вы подписали данный документ %s. Помните, что Аллах спросит о договорах в День Суда.',
       'User' => 'Раб Аллаха',
-      'Assigned' => 'На моей ответственности',
-      'Assigned: %s' => 'Ответственный: %s',
       'Assigned To' => 'Ответит за это в Судный День',
       'Assigned to Me' => 'Я буду отвечать за это в Судный День',
       '%s closed subtask %s as %s.' => 'Хвала Аллаху, %s закрыл(а) подзадачу %s как %s.',
