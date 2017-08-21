@@ -2925,6 +2925,9 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'Move Post' => 'Переместить пост',
       'Edit Header Image' => 'Редактировать изображение заголовка',
       'Publish' => 'Опубликовать',
+      'Published' => 'Опубликовано',
+      'Draft' => 'Черновик',
+      'Archived' => 'В архиве',
       'Unpublish' => 'Отменить публикацию',
       'View Live' => 'Показать публикацию',
       'Written by %s on %s.' => 'За авторством %s от %s.',
@@ -2972,6 +2975,8 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       'No parent domain' => 'Нет родительского домена',
       '%s updated the task description.' => '%s обновил(а) описание задачи.',
       '%s updated the task description for %s.' => '%s обновил(а) описание задачи для %s.',
+      'Previous Post' => 'Предыдущая запись',
+      'Next Post' => 'Следующая запись',
     );
   }
 
