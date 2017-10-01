@@ -10,9 +10,10 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
   }
 
   protected function getTranslations() {
+    
+    //require_celerity_resource('russian-css');
+    
     return array(
-      
-      
       // Overall
       '%s Day(s) Ago' => [
         '%s день назад',
@@ -929,9 +930,11 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
       ),
 
       '%s, %s line(s)' => array(
-        '%s, %s строка',
-        '%s, %s строки',
-        '%s, %s строк',
+        array(
+          '%s, %s строка',
+          '%s, %s строки',
+          '%s, %s строк',
+        )
       ),
 
       '%s pushed %d commit(s) to %s.' => array(
@@ -1068,9 +1071,9 @@ final class PhabricatorRussianTranslation extends PhutilTranslation {
 
       '%s removed %s project(s) from %s: %s.' => array(
         array(
-          '%s удалил(а) %s проект из %3$s: %4$s.',
-          '%s удалил(а) %s проекта из %3$s: %4$s.',
-          '%s удалил(а) %s проектов из %3$s: %4$s.',
+          '%s удалил(а) %s проект из %s: %s.',
+          '%s удалил(а) %s проекта из %s: %s.',
+          '%s удалил(а) %s проектов из %s: %s.',
         ),
       ),
 

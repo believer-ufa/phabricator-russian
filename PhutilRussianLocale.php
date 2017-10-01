@@ -1,7 +1,7 @@
 <?php
 
 final class PhutilRussianLocale extends PhutilLocale {
-
+  
   public function getLocaleCode() {
     return 'ru_RU';
   }
