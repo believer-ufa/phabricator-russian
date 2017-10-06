@@ -6,7 +6,7 @@
 final class PhabricatorRussianMuslimTranslation extends PhutilTranslation {
 
   public function getLocaleCode() {
-    return 'ru_RU';
+    return 'ru_M*';
   }
 
   protected function getTranslations() {
